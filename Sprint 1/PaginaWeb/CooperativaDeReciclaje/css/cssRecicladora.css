@@ -1,0 +1,52 @@
+/*Fondo*/
+
+.fondo {
+    background-image: url(../img/reciclaje.jpg);
+    background-attachment: fixed;
+    opacity: 0, 3;
+    position: under;
+}
+
+.overlay {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+    opacity: 0.9;
+    padding: 20px;
+}
+
+.black {
+    font-weight: bold;
+}
+
+
+/*Nav*/
+
+.navegador {
+    background-color: rgba(50, 168, 21, 0.733);
+}
+
+.ulnav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navegador a {
+    color: #fff;
+}
+
+
+/*Footer*/
+
+.footer {
+    background-color: rgba(50, 168, 21, 0.733);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ocultar {
+    display: none;
+}
